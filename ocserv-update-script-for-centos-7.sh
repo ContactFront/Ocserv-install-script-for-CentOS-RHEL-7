@@ -1,8 +1,8 @@
 #!/bin/bash
 
-ocserv_version=0.11.3
+ocserv_version=0.11.4
 version=${1-${ocserv_version}}
-libtasn1_version=4.8
+libtasn1_version=4.9
 filename="ocserv-${version}.tar.xz"
 dirname="ocserv-${version}"
 url="ftp://ftp.infradead.org/pub/ocserv/${filename}"
